@@ -1,6 +1,6 @@
 {
   "name": "anitapachecoh-storybook",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "tsc",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public --no-dll",
@@ -60,7 +60,7 @@
     "@semantic-release/git"
   ],
   "files": [
-    "dist"
+    "build"
   ],
-  "main": "dist/index.js"
+  "main": "build/index.html"
 }
