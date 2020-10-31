@@ -10,7 +10,7 @@ const button = {
   },
 };
 
-export default button;
+export default button; 
 
 const Template = (args) => <Button {...args} />;
 
